@@ -1,0 +1,139 @@
+#border {
+    background-color: rgb(84, 248, 8);
+    border: 5px solid black;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#question1 {
+    color: rgb(255, 0, 13);
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#Quiz {
+    color: rgb(0, 89, 255);
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+.buttons1 {
+background-color: rgb(0, 38, 255);
+color: white;
+padding: 5px;
+margin: 10px;
+border-radius: 10px;
+width: 100px;
+
+}
+.buttons2 {
+    background-color: rgb(0, 38, 255);
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+.buttons3 {
+    background-color: aqua;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+.buttons4 {
+    background-color: aqua;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+#clock {
+    color: rgb(0, 89, 255);
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#text {
+    color: rgb(0, 89, 255);
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#text1 {
+text-align: center;
+
+}
+#text2 {
+text-align: left;
+    }
+
+.text3 {
+color: red;
+        }
+        
+#Correct {
+ display: block;
+}
+
+#option1 {
+color: white;
+font-size: 25px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#option2 {
+    color: white;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#option3 {
+    color: white;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#option4 {
+    color: white;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+p {
+    color: rgb(0, 89, 255);
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#message1 {
+    color: rgb(0, 89, 255);
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+body {
+background-image: url('https://media.giphy.com/media/bJK6EMsm0b4cw/source.gif');
+background-size: cover;
+
+}
+
+#Time {
+    color:  white;
+    font-size: 55px;
+}
