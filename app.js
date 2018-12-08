@@ -39,20 +39,20 @@ function begin1() {
     dissapear1.innerHTML = "";
     message1.innerHTML = "";
     question1.innerHTML = question[0];
-    option1.innerHTML = answer1[0];
-    option2.innerHTML = answer2[0];
-    option3.innerHTML = answer3[0];
-    option4.innerHTML = answer4[0];
+    choice1.innerHTML = answer1[0];
+    choice2.innerHTML = answer2[0];
+    choice3.innerHTML = answer3[0];
+    choice4.innerHTML = answer4[0];
     number1.innerHTML = n++;
 
 }
 // correct or incorrect
 function question1correct() {
     answer1.innerHTML = "<div>" + correct[3] + "</div>";
-    option1.innerHTML = "Correct!";
-    option2.innerHTML = "";
-    option3.innerHTML = "";
-    option4.innerHTML = "";
+    choice1.innerHTML = "Correct!";
+    choice2.innerHTML = "";
+    choice3.innerHTML = "";
+    choice4.innerHTML = "";
     number1.innerHTML = "";
     next1.innerHTML = "<button class=buttons1 onclick=fresh2()>Next Question</button>";
     score1.innerHTML = s++;
@@ -60,10 +60,10 @@ function question1correct() {
 
 function question1incorrect() {
     answer1.innerHTML = "<div>" + incorrect[0] + "</div>";
-    option1.innerHTML = "";
-    option2.innerHTML = "Incorrect";
-    option3.innerHTML = "";
-    option4.innerHTML = "";
+    choice1.innerHTML = "";
+    choice2.innerHTML = "Incorrect";
+    choice3.innerHTML = "";
+    choice4.innerHTML = "";
     number1.innerHTML = "";
     next1.innerHTML = "<button class=buttons1 onclick=fresh2()>Next Question</button>";
 
@@ -74,10 +74,10 @@ function question1incorrect() {
 function fresh2() {
     message1.innerhtml = "";
     question1.innerHTML = question[1];
-    option1.innerHTML = answer1[1];
-    option2.innerHTML = answer2[1];
-    option3.innerHTML = answer3[1];
-    option4.innerHTML = answer4[1];
+    choice1.innerHTML = answer1[1];
+    choice2.innerHTML = answer2[1];
+    choice3.innerHTML = answer3[1];
+    choice4.innerHTML = answer4[1];
     next1.innerHTML = "";
     answer1.innerHTML = "";
     number1.innerHTML = n++;
@@ -86,10 +86,10 @@ function fresh2() {
 
 function question2correct() {
     answer1.innerHTML = "<div>" + correct[1] + "</div>";
-    option1.innerHTML = "";
-    option2.innerHTML = "Correct";
-    option3.innerHTML = "";
-    option4.innerHTML = "";
+    choice1.innerHTML = "";
+    choice2.innerHTML = "Correct";
+    choice3.innerHTML = "";
+    choice4.innerHTML = "";
     number1.innerHTML = "";
     next1.innerHTML = "<button class=buttons1 onclick=fresh3()>Next Question</button>";
     score1.innerHTML = s++;
@@ -97,10 +97,10 @@ function question2correct() {
 
 function question2incorrect() {
     answer1.innerHTML = "<div>" + incorrect[1] + "</div>";
-    option1.innerHTML = "Incorrect";
-    option2.innerHTML = "";
-    option3.innerHTML = "";
-    option4.innerHTML = "";
+    choice1.innerHTML = "Incorrect";
+    choice2.innerHTML = "";
+    choice3.innerHTML = "";
+    choice4.innerHTML = "";
     number1.innerHTML = "";
     next1.innerHTML = "<button class=buttons1 onclick=fresh3()>Next Question</button>";
 
@@ -109,10 +109,10 @@ function question2incorrect() {
 function fresh3() {
     message1.innerhtml = "";
     question1.innerHTML = question[2];
-    option1.innerHTML = answer1[2];
-    option2.innerHTML = answer2[2];
-    option3.innerHTML = answer3[2];
-    option4.innerHTML = answer4[2];
+    choice1.innerHTML = answer1[2];
+    choice2.innerHTML = answer2[2];
+    choice3.innerHTML = answer3[2];
+    choice4.innerHTML = answer4[2];
     next1.innerHTML = "";
     answer1.innerHTML = "";
     number1.innerHTML = n++;
@@ -121,10 +121,10 @@ function fresh3() {
 
 function question3correct() {
     answer1.innerHTML = "<div>" + correct[3] + "</div>";
-    option1.innerHTML = "";
-    option2.innerHTML = "";
-    option3.innerHTML = "";
-    option4.innerHTML = "Correct";
+    choice1.innerHTML = "";
+    choice2.innerHTML = "";
+    choice3.innerHTML = "";
+    choice4.innerHTML = "Correct";
     number1.innerHTML = "";
     next1.innerHTML = "<button class=buttons1 onclick=fresh4()>Next Question</button>";
     score1.innerHTML = s++;
@@ -132,10 +132,10 @@ function question3correct() {
 
 function question3incorrect() {
     answer1.innerHTML = "<div>" + incorrect[1] + "</div>";
-    option1.innerHTML = "";
-    option2.innerHTML = "Incorrect";
-    option3.innerHTML = "";
-    option4.innerHTML = "";
+    choice1.innerHTML = "";
+    choice2.innerHTML = "Incorrect";
+    choice3.innerHTML = "";
+    choice4.innerHTML = "";
     number1.innerHTML = "";
     next1.innerHTML = "<button class=buttons1 onclick=fresh4()>Next Question</button>";
 
@@ -144,10 +144,10 @@ function question3incorrect() {
 function fresh4() {
     message1.innerhtml = "";
     question1.innerHTML = question[3];
-    option1.innerHTML = answer1[3];
-    option2.innerHTML = answer2[3];
-    option3.innerHTML = answer3[3];
-    option4.innerHTML = answer4[3];
+    choice1.innerHTML = answer1[3];
+    choice2.innerHTML = answer2[3];
+    choice3.innerHTML = answer3[3];
+    choice4.innerHTML = answer4[3];
     next1.innerHTML = "";
     answer1.innerHTML = "";
     number1.innerHTML = n++;
@@ -155,10 +155,10 @@ function fresh4() {
 
 function question4correct() {
     answer1.innerHTML = "<div>" + correct[2] + "</div>";
-    option1.innerHTML = "";
-    option2.innerHTML = "";
-    option3.innerHTML = "Correct";
-    option4.innerHTML = "";
+    choice1.innerHTML = "";
+    choice2.innerHTML = "";
+    choice3.innerHTML = "Correct";
+    choice4.innerHTML = "";
     number1.innerHTML = "";
     next1.innerHTML = "<button class=buttons1 onclick=end1()>End Game</button>";
     score1.innerHTML = s++;
@@ -166,10 +166,10 @@ function question4correct() {
 // last Question and End Game
 function question4incorrect() {
     answer1.innerHTML = "<div>" + incorrect[1] + "</div>";
-    option1.innerHTML = "";
-    option2.innerHTML = "Incorrect";
-    option3.innerHTML = "";
-    option4.innerHTML = "";
+    choice1.innerHTML = "";
+    choice2.innerHTML = "Incorrect";
+    choice3.innerHTML = "";
+    choice4.innerHTML = "";
     number1.innerHTML = "";
     next1.innerHTML = "<button class=buttons1 onclick=end1()>End Game</button>";
 
@@ -178,16 +178,21 @@ function question4incorrect() {
 function end1() {
     message1.innerhtml = "PIKA PIKA";
     question1.innerHTML = "";
-    option1.innerHTML = "";
-    option2.innerHTML = "";
-    option3.innerHTML = "";
-    option4.innerHTML = "";
+    choice1.innerHTML = "";
+    choice2.innerHTML = "";
+    choice3.innerHTML = "";
+    choice4.innerHTML = "";
     next1.innerHTML = "<button class=buttons1 onclick=restart1()>Restart</button>" + "</div>";
     answer1.innerHTML = "";
 
 }
-// Timer
+function restart1() {
+    location.reload();
 
+}
+
+
+// Timer
 function timer() {
     t = t - 1;
     if (t < 30) {
@@ -198,10 +203,10 @@ function timer() {
         window.clearInterval(update);
         message1.innerhtml = "PIKA PIKA";
     question1.innerHTML = "";
-    option1.innerHTML = "";
-    option2.innerHTML = "";
-    option3.innerHTML = "";
-    option4.innerHTML = "";
+    choice1.innerHTML = "";
+    choice2.innerHTML = "";
+    choice3.innerHTML = "";
+    choice4.innerHTML = "";
     next1.innerHTML = "<button class=buttons1 onclick=restart1()>Restart</button>" + "</div>";
     answer1.innerHTML = "";
     }
@@ -209,8 +214,5 @@ function timer() {
 
 update = setInterval("timer()",1000);
 
-function restart1() {
-    location.reload();
 
-}
 
